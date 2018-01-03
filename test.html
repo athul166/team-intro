@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>ddf</title>
+    <style>
+    .tooltip {
+        position: relative;
+        display: inline-block;
+        border-bottom: 1px dotted black;
+      }
+
+      .tooltip .tooltiptext {
+        visibility: hidden;
+        width: 120px;
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+
+        /* Position the tooltip */
+        position: absolute;
+        z-index: 100;
+        top: 100%;
+        left: 50%;
+        margin-left: -60px;
+      }
+
+      .tooltip:hover .tooltiptext {
+        visibility: visible;
+      }
+  	</style>
+  </head>
+  <body>
+    <img src="images/team.jpg" style="opacity:0.3;width:700px;" alt="" usemap="#Map" />
+    <map name="Map" id="Map">
+        <area class="tooltip" alt="" title="" href="#" shape="rect" coords="0,0,100,100" />
+        <span class="tooltiptext">Tooltip text</span>
+    </map>
+  </body>
+</html>
