@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Opportunity Submission</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -16,6 +16,10 @@
 	 -moz-transform: translate(0);
 	 transform: translate(0);
 	}
+  .unstyled::-webkit-inner-spin-button{
+    display: none;
+    -webkit-appearance: none;
+  }
 	</style>
 </head>
 <body style="background-color:#D0D0D0;">
@@ -23,7 +27,7 @@
   <div class="container-fluid">
       <div class="navbar-header" style="margin-top:5px">
         <a class="navbar-brand" href="index.html"> <img src="./images/rsLogo.png" alt="team logo" style="width: 100px; float: left; margin-top: -30px; margin-left: -30px;" />
-        <a class="navbar-brand" href="index.html"style="color:#FFF"><strong>Rapid Solution</strong></a>
+        <a class="navbar-brand" href="index.html"style="color:#FFF"><strong>Rapid Prototyping Team</strong></a>
       </div>
     </div>
   </nav>
@@ -60,31 +64,31 @@
   </div>
   <form class="form-horizontal" action="./index.html" method="post" style="margin-left: 140px;">
     <div class="form-group">
-      <label class="control-label col-sm-4" for="email">Opportunity Owner / Digital Partner</label>
+      <label class="control-label col-sm-4" for="email">Opportunity Owner / Digital Partner *</label>
       <div class="col-sm-5">
         <input type="email" class="form-control" id="email" placeholder="email-id" name="email" required>
       </div>
     </div>
     <div class="form-group">
-      <label class="control-label col-sm-4" for="ID">Opportunity ID</label>
+      <label class="control-label col-sm-4" for="ID">Opportunity ID *</label>
       <div class="col-sm-5">
         <input type="text" class="form-control" id="ID" placeholder="Opp ID" name="ID" required>
       </div>
     </div>
     <div class="form-group">
-      <label class="control-label col-sm-4" for="buyer">Customer Buyer Name</label>
+      <label class="control-label col-sm-4" for="buyer">Customer Buyer Name *</label>
       <div class="col-sm-5">
         <input type="text" class="form-control" id="buyer" placeholder="Client Name" name="email" required>
       </div>
     </div>
     <div class="form-group">
-      <label class="control-label col-sm-4" for="bvalue">Expected Business Value ($)</label>
+      <label class="control-label col-sm-4" for="bvalue">Expected Business Value ($) *</label>
       <div class="col-sm-5">
         <input type="number" class="form-control" id="bvalue" placeholder="Dollar value" name="bvalue">
       </div>
     </div>
     <div class="form-group">
-      <label class="control-label col-sm-4" for="powner">Product Owner</label>
+      <label class="control-label col-sm-4" for="powner">Product Owner *</label>
       <div class="col-sm-5">
         <input type="email" class="form-control" id="powner" placeholder="email-id" name="powner">
       </div>
@@ -126,13 +130,13 @@
     <div class="form-group">
       <label class="control-label col-sm-4" for="sdate">Expected Start Date</label>
       <div class="col-sm-5">
-        <input type="date" class="form-control" id="sdate" name="sdate">
+        <input type="date" class="unstyled" style="border-width: 0px; height: 30px; border-radius:3px; padding: 5px;" class="form-control" id="sdate" name="sdate">
       </div>
     </div>
     <div class="form-group">
       <label class="control-label col-sm-4" for="ddate">Expected Delivery Date</label>
       <div class="col-sm-5">
-        <input type="date" class="form-control" id="ddate"  name="ddate">
+        <input type="date" class="unstyled" style="border-width: 0px; height: 30px; border-radius:3px; padding: 5px;" class="form-control" id="ddate"  name="ddate">
       </div>
     </div>
     <div class="form-group">

@@ -7,7 +7,7 @@
 }
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *	Edit this section
 *
 * ======================================================= */
@@ -70,14 +70,14 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (max-width: 768px) {
   #fh5co-header {
     margin-top: 0;
-    background: #fff;
+    background-color: #454545;
     -webkit-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
     -ms-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
   }
   #fh5co-header .navbar-brand {
-    color: #6173f4 !important;
+    color: #454545 !important;
   }
   #fh5co-header #navbar li a {
     color: rgba(0, 0, 0, 0.5) !important;
@@ -86,7 +86,7 @@ h1, h2, h3, h4, h5, h6 {
     transition: 0.3s;
   }
   #fh5co-header #navbar li a:hover {
-    color: #6173f4 !important;
+    color: #FFF !important;
   }
   #fh5co-header #navbar li a span:before {
     background: transparent !important;
@@ -94,7 +94,7 @@ h1, h2, h3, h4, h5, h6 {
   #fh5co-header #navbar li.active a {
     background: transparent;
     background: none;
-    color: #6173f4 !important;
+    color: #FFF !important;
   }
   #fh5co-header #navbar li.active a span:before {
     visibility: visible;
@@ -123,7 +123,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #6173f4;
+  background-color: #FFF;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   -moz-transform: scaleX(0);
@@ -167,7 +167,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #fh5co-header.navbar-fixed-top {
   position: fixed !important;
-  background: #fff;
+  background: #454545;
   -webkit-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
   -ms-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
@@ -176,21 +176,21 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
 }
 #fh5co-header.navbar-fixed-top .navbar-brand {
-  color: #6173f4;
+  color: #FFF;
 }
 #fh5co-header.navbar-fixed-top #navbar li a {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 0.5);
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
 }
 #fh5co-header.navbar-fixed-top #navbar li a:hover {
-  color: #6173f4;
+  color: #FFF;
 }
 #fh5co-header.navbar-fixed-top #navbar li.active a {
   background: transparent;
   background: none;
-  color: #6173f4;
+  color: #FFF;
 }
 #fh5co-header.navbar-fixed-top #navbar li.active a span:before {
   visibility: visible;
@@ -216,10 +216,10 @@ h1, h2, h3, h4, h5, h6 {
   margin: 28px 0 0 15px;
   float: left;
   letter-spacing: 2px;
-  color: #adadad;
+  color: #FFF;
 }
 #fh5co-header .navbar-default .brand-slogan em {
-  color: #6173f4;
+  color: #FFF;
   font-style: normal;
 }
 #fh5co-header a {
@@ -231,18 +231,18 @@ h1, h2, h3, h4, h5, h6 {
 .section-heading {
   float: left;
   width: 100%;
-  padding-bottom: 50px;
-  margin-bottom: 50px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
   clear: both;
 }
 .section-heading h2 {
-  font-size: 50px;
-  font-weight: 300;
+  font-size: 40px;
+  font-weight: 100;
   color: #444;
   text-transform: uppercase;
   position: relative;
   display: block;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   line-height: 1.5;
 }
 .section-heading h2:after {
@@ -285,7 +285,7 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-testimonials,
 #fh5co-pricing,
 #fh5co-press {
-  padding: 7em 0;
+  padding: 2.7em 0;
 }
 @media screen and (max-width: 480px) {
   #fh5co-our-services,
@@ -294,12 +294,12 @@ h1, h2, h3, h4, h5, h6 {
   #fh5co-testimonials,
   #fh5co-pricing,
   #fh5co-press {
-    padding: 5em 0;
+    padding: 2.7em 0;
   }
 }
 
 #fh5co-testimonials {
-  background: #6173f4;
+  background: #454545;
 }
 #fh5co-testimonials .section-heading h2 {
   color: white;
@@ -1049,7 +1049,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
 }
 .owl-carousel-fullwidth .item .fh5co-owl-text .fh5co-lead {
-  font-weight: 700;
+  font-weight: 500;
   margin-bottom: 20px;
   margin-top: 0;
   text-transform: uppercase;
@@ -1067,7 +1067,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 .owl-carousel-fullwidth .item .fh5co-owl-text .fh5co-sub-lead {
-  font-size: 30px;
+  font-size: 25px;
   line-height: 30px;
   line-height: 42px;
   font-weight: 100;
